@@ -2,6 +2,8 @@
 
 A modern, full-stack calculator web application built with a React frontend, Material UI styling, an Express.js backend API, and robust testing integration using Vitest.
 
+![Calculator](./images/initial.png)
+
 ![Calculator Demo](./images/calculator.mp4)
 
 
