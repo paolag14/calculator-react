@@ -2,6 +2,9 @@
 
 A modern, full-stack calculator web application built with a React frontend, Material UI styling, an Express.js backend API, and robust testing integration using Vitest.
 
+![Calculator Demo](./images/calculator.mp4)
+
+
 ## ✨ Features
 
 * **Modern UI/UX:** Clean calculator layout styled with Material UI components and custom CSS.
@@ -144,6 +147,12 @@ curl -X POST http://localhost:3000/api/calculate \
 ```
 
 ---
+
+## ✅ Front-end tests
+![Front-end tests](./images/tests-front.png)
+
+## ✅ Back-end tests
+![Back-end tests](./images/tests-back.png)
 
 ## 💡 Design Decisions & Assumptions
 
