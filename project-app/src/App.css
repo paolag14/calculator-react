@@ -1,0 +1,90 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F4F6F8;
+}
+
+.calculator-paper {
+  width: 100%;
+  max-width: 360px;
+  padding: 16px;
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  border: 1px solid #EEEEEE;
+}
+
+.calculator-display {
+  background-color: #222C3C;
+  color: white;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  text-align: right;
+  min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.display-previous {
+  color: #A0A0A0;
+  min-height: 20px;
+}
+
+.display-current {
+  font-weight: normal;
+  overflow: hidden;
+}
+
+.calculator-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+/* Base button styles */
+button.calc-btn {
+  width: 100%;
+  height: 64px;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  text-transform: none;
+  font-weight: normal;
+  color: #0066FF;
+  background-color: #FFFFFF;
+  border: 1px solid #D0E0FF;
+}
+
+button.calc-btn:hover {
+  background-color: #F0F5FF;
+}
+
+/* Colored Operator Buttons */
+button.calc-btn.btn-purple {
+  color: #FFFFFF;
+  background-color: #A132B4;
+  border: none;
+}
+button.calc-btn.btn-purple:hover {
+  background-color: rgba(161, 50, 180, 0.8);
+}
+
+button.calc-btn.btn-blue-light {
+  color: #FFFFFF;
+  background-color: #007FFF;
+  border: none;
+}
+button.calc-btn.btn-blue-light:hover {
+  background-color: rgba(0, 127, 255, 0.8);
+}
+
+button.calc-btn.btn-blue-dark {
+  color: #FFFFFF;
+  background-color: #1976D2;
+  border: none;
+}
+button.calc-btn.btn-blue-dark:hover {
+  background-color: rgba(25, 118, 210, 0.8);
+}
