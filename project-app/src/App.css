@@ -8,7 +8,7 @@
 
 .calculator-paper {
   width: 100%;
-  max-width: 360px;
+  max-width: 50vh;
   padding: 16px;
   border-radius: 24px;
   background-color: #FFFFFF;
@@ -22,7 +22,7 @@
   border-radius: 16px;
   margin-bottom: 16px;
   text-align: right;
-  min-height: 110px;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
